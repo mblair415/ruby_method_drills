@@ -129,6 +129,9 @@ end
 #   # ignores case
 #   # returns false for non-letter inputs
 #
+def is_vowel(word)
+  word.downcase.split('').each {|character|}
+end
 # #add_period
 #   # adds a period to the end of the given sentence
 #   # does not add a period if one is already there
